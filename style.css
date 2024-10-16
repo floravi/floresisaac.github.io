@@ -1,0 +1,126 @@
+
+.page-nav{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+.page-nav h1{
+    margin: 10px;
+color: #4caf50;
+
+}
+.button-checkout{
+    background-color: rgb(176, 233, 165);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(32, 209, 32);
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+
+.producto-container{
+    margin: 15px;
+    padding: 2px 16px;
+    width: 400px;
+    height: 550px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(21, 56, 255, 0.979);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    margin-bottom: 20px;
+    
+    box-shadow: 0 0 20px rgb(1, 48, 255);
+   
+}
+.producto-container:hover{
+    box-shadow: 0 9px 16px 0 rgba(255, 255, 255, 0.945);
+}
+
+.producto-container h3{
+    margin-bottom: 10px;
+    margin: 15px;
+    color: chartreuse;
+}
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+.rotar-infinitamente {
+ 
+    transform-origin: center;
+    
+    animation: rotar 4s linear infinite;
+  }
+  
+@keyframes rotar {
+  
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .rotar-infinitamente {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #000000;
+    box-shadow: 0 0 10px rgb(0, 89, 255);
+  }  
+  .rotar-infinitamente:hover{
+    box-shadow: 0 9px 16px 0 rgba(255, 255, 255, 0.945);
+  }
+  /*
+  .pelito-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg,rgba(255,255,255,0.5)25%,transparent 25%, transparent 75%,rgba(255,255,255,0.5)75%);
+    background-size: 8px 8px;
+    pointer-events: none;}
+*/
+.producto-container3{
+  margin: 15px;
+  padding: 2px 16px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(21, 142, 255, 0.979);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10%;
+  margin-bottom: 20px;
+  
+  box-shadow: 0 0 20px rgb(5, 1, 255);
+ 
+}
+.producto-container3:hover{
+  box-shadow: 0 9px 16px 0 rgba(255, 255, 255, 0.945);
+}
+
+.rotar-infinitamente{
+  transition: transform 0.3s ease;
+}
+
+.rotar-infinitamente:hover{
+  transform: scale(1.2); /* Escala la imagen al 120% del tamaño original */
+}
+.img{
+    border-radius: 10%;
+}.page-content {
+    display: flex; /* Habilita el flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si hay altura definida */
+    height: 100%; /* Asegúrate de que el contenedor tenga altura para centrar verticalmente */
+}
